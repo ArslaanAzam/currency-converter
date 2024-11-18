@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CURRENCY EXCHANGE CALCULATOR</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>CURRENCY EXCHANGE CALCULATOR</h1>
+        <form>
+            <div class="main">
+                <div class="main-container">
+
+
+                    <input id="box1" type="text" placeholder="     ENTER AMOUNT"></input>
+
+                    <div class="select-cotainer">
+                    <p>FROM</p>
+                    <div class="from">
+                        <!-- <img src="https://flagsapi.com/US/flat/64.png" /> -->
+                        <select name="from" placeholder="FROM" id="box2">
+                            <option value="usd">US </option>
+                            <option value="inr">INR </option>
+                            <option value="btc">BTC </option>
+                        </select>
+                    </div>
+
+                </div>
+                <button id="arrow"> ⇄</button>
+                <div class="select-cotainer">
+                    <p class="newP">TO</p>
+                    <div class="to">
+                        <!-- <img src="https://flagsapi.com/IN/flat/64.png"> -->
+                        <select name="to" id="box3">
+                            <option value="Inr">INR </option>
+                            <option value="usd">US</option>
+                        </select>
+                    </div>
+          </div>
+            </div>
+
+
+            <div class="msg">1USD=80INR</div>
+            <button id="convert">GET EXCHANGE RATE</button>
+        </form>
+    </div>
+    </div>
+
+
+
+</body>
+
+<script src="code.js"></script>
+<script src="script.js"></script>
+
+
+</html>

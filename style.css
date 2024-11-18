@@ -1,0 +1,125 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+body{ 
+    background-color:#222831 ;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    height:100vh;
+  }
+
+    h1{
+      position: absolute;
+       top:30px;
+       width: 1400px  ; 
+       text-align: center; 
+       text-decoration: underline;
+       color:#cc8932;
+       
+    }
+    input{
+      margin-top: 20px;
+    }
+    .main{
+        text-align: center;
+        height:10rem;
+        width: 1000px;
+        
+        padding:100px;
+        margin-left: 100px;
+        margin-right: 100px;
+        border-radius: 2rem;
+        background-color: #757f93;
+        display:flex;
+         flex-direction: column;  
+        justify-content: center;
+        align-items: center;
+    }  
+    .select-container{
+      display: flex;
+   align-items: center;
+
+    }
+    input{
+      text-align: center;
+      display: flex;
+      align-items: center;
+    }
+    .newP{
+      margin-right: 50px;
+    }
+   .main-container {
+    display: flex; 
+    align-items:center;
+    justify-content: center;
+   }
+ 
+ 
+    .from{
+      display: flex;
+      align-items: center;
+justify-content: center;
+    }
+    .to{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+   
+   #box1{
+    height: 40px;
+    width: 150px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 25px 25px 25px 25px;
+    border: none;
+   }
+   #box2{
+    height: 40px;
+    width: 150px;
+    margin-right:none;
+    border:none;
+   }
+
+   #box3{
+    height: 40px;
+    width: 150px;
+    margin-right: 50px;
+    /* border-radius: 0 25px 25px 0; */
+    border: none;
+   }
+   #arrow{
+    font-size: xx-large;
+    background-color: #757f93;
+    color:black;
+    border:none;
+    margin-top: 2rem;
+    margin-left:50px;
+    margin-right:50px;
+   }
+   #convert{
+    text-align: center;
+    background-color: lightgreen;
+    height: 10rem;
+    width:15rem;
+    border:none;
+     padding:20px; 
+     margin:10px;  
+     border-width:  2px;
+     border-style: line;
+     border-color: green; 
+     cursor: pointer;
+   }
+   .msg{
+    margin-top: 50px;
+    font-size: 1.5rem;
+    font-style: italic;
+   }
+  
+   #convert:active{
+    background-color: #EEEEEE;
+    color:black;
+    font-size:14px;
+   }
